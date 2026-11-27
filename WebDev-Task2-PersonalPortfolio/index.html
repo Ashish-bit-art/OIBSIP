@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Ashish Kumar — Frontend Developer, Angular Developer and Flutter Developer. Explore professional experience, skills and projects.">
+  <meta name="theme-color" content="#0b1220">
+  <title>Ashish Kumar | Frontend & Angular Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Ashish Kumar home">ashish<span>.</span></a>
+      <div class="sm-menu">
+        <button class="menu-toggle" aria-label="Open navigation menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <!-- <div class="theme-picker hide-ls show-sm">
+          <button class="theme-toggle" type="button" aria-label="Choose website theme" aria-expanded="false"
+            aria-controls="theme-menu" title="Change theme">
+            <svg class="theme-toggle-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M12 3v2m0 14v2M3 12h2m14 0h2M5.64 5.64l1.42 1.42m9.88 9.88 1.42 1.42m0-12.72-1.42 1.42m-9.88 9.88-1.42 1.42" />
+              <circle cx="12" cy="12" r="4" />
+            </svg>
+          </button>
+          <div class="theme-menu" id="theme-menu" role="menu" aria-label="Choose color theme" hidden>
+            <p class="theme-menu-title">Choose a theme</p>
+            <button type="button" class="theme-option" data-theme="midnight" role="menuitemradio"
+              aria-checked="true"><span
+                class="theme-swatch swatch-midnight"></span><span><strong>Midnight</strong><small>Deep navy ·
+                  orange</small></span><span class="theme-check">✓</span></button>
+            <button type="button" class="theme-option" data-theme="ocean" role="menuitemradio"
+              aria-checked="false"><span
+                class="theme-swatch swatch-ocean"></span><span><strong>Ocean</strong><small>Blue ·
+                  cyan</small></span><span class="theme-check">✓</span></button>
+            <button type="button" class="theme-option" data-theme="forest" role="menuitemradio"
+              aria-checked="false"><span
+                class="theme-swatch swatch-forest"></span><span><strong>Forest</strong><small>Evergreen ·
+                  mint</small></span><span class="theme-check">✓</span></button>
+            <button type="button" class="theme-option" data-theme="violet" role="menuitemradio"
+              aria-checked="false"><span
+                class="theme-swatch swatch-violet"></span><span><strong>Violet</strong><small>Plum ·
+                  lavender</small></span><span class="theme-check">✓</span></button>
+            <button type="button" class="theme-option" data-theme="light" role="menuitemradio"
+              aria-checked="false"><span
+                class="theme-swatch swatch-light"></span><span><strong>Light</strong><small>Ivory ·
+                  indigo</small></span><span class="theme-check">✓</span></button>
+          </div>
+        </div> -->
+      </div>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact" class="nav-cta">Let's talk <span>↗</span></a>
+        <div class="theme-picker hide-sm">
+          <button class="theme-toggle" type="button" aria-label="Choose website theme" aria-expanded="false"
+            aria-controls="theme-menu" title="Change theme">
+            <svg class="theme-toggle-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M12 3v2m0 14v2M3 12h2m14 0h2M5.64 5.64l1.42 1.42m9.88 9.88 1.42 1.42m0-12.72-1.42 1.42m-9.88 9.88-1.42 1.42" />
+              <circle cx="12" cy="12" r="4" />
+            </svg>
+          </button>
+          <div class="theme-menu" id="theme-menu" role="menu" aria-label="Choose color theme" hidden>
+            <p class="theme-menu-title">Choose a theme</p>
+            <button type="button" class="theme-option" data-theme="midnight" role="menuitemradio"
+              aria-checked="true"><span
+                class="theme-swatch swatch-midnight"></span><span><strong>Midnight</strong><small>Deep navy ·
+                  orange</small></span><span class="theme-check">✓</span></button>
+            <button type="button" class="theme-option" data-theme="ocean" role="menuitemradio"
+              aria-checked="false"><span
+                class="theme-swatch swatch-ocean"></span><span><strong>Ocean</strong><small>Blue ·
+                  cyan</small></span><span class="theme-check">✓</span></button>
+            <button type="button" class="theme-option" data-theme="forest" role="menuitemradio"
+              aria-checked="false"><span
+                class="theme-swatch swatch-forest"></span><span><strong>Forest</strong><small>Evergreen ·
+                  mint</small></span><span class="theme-check">✓</span></button>
+            <!-- <button type="button" class="theme-option" data-theme="violet" role="menuitemradio"
+              aria-checked="false"><span
+                class="theme-swatch swatch-violet"></span><span><strong>Violet</strong><small>Plum ·
+                  lavender</small></span><span class="theme-check">✓</span></button> -->
+            <button type="button" class="theme-option" data-theme="light" role="menuitemradio"
+              aria-checked="false"><span
+                class="theme-swatch swatch-light"></span><span><strong>Light</strong><small>Ivory ·
+                  indigo</small></span><span class="theme-check">✓</span></button>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="theme-picker">
+        <button class="theme-toggle" type="button" aria-label="Choose website theme" aria-expanded="false"
+          aria-controls="theme-menu" title="Change theme">
+          <svg class="theme-toggle-icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path
+              d="M12 3v2m0 14v2M3 12h2m14 0h2M5.64 5.64l1.42 1.42m9.88 9.88 1.42 1.42m0-12.72-1.42 1.42m-9.88 9.88-1.42 1.42" />
+            <circle cx="12" cy="12" r="4" />
+          </svg>
+        </button>
+        <div class="theme-menu" id="theme-menu" role="menu" aria-label="Choose color theme" hidden>
+          <p class="theme-menu-title">Choose a theme</p>
+          <button type="button" class="theme-option" data-theme="midnight" role="menuitemradio"
+            aria-checked="true"><span
+              class="theme-swatch swatch-midnight"></span><span><strong>Midnight</strong><small>Deep navy ·
+                orange</small></span><span class="theme-check">✓</span></button>
+          <button type="button" class="theme-option" data-theme="ocean" role="menuitemradio" aria-checked="false"><span
+              class="theme-swatch swatch-ocean"></span><span><strong>Ocean</strong><small>Blue ·
+                cyan</small></span><span class="theme-check">✓</span></button>
+          <button type="button" class="theme-option" data-theme="forest" role="menuitemradio" aria-checked="false"><span
+              class="theme-swatch swatch-forest"></span><span><strong>Forest</strong><small>Evergreen ·
+                mint</small></span><span class="theme-check">✓</span></button>
+          <button type="button" class="theme-option" data-theme="violet" role="menuitemradio" aria-checked="false"><span
+              class="theme-swatch swatch-violet"></span><span><strong>Violet</strong><small>Plum ·
+                lavender</small></span><span class="theme-check">✓</span></button>
+          <button type="button" class="theme-option" data-theme="light" role="menuitemradio" aria-checked="false"><span
+              class="theme-swatch swatch-light"></span><span><strong>Light</strong><small>Ivory ·
+                indigo</small></span><span class="theme-check">✓</span></button>
+        </div>
+      </div> -->
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span> FRONTEND · ANGULAR · FLUTTER</p>
+          <h1>Building digital products with <span>clarity</span> and purpose.</h1>
+          <p class="hero-lead">I'm <strong>Ashish Kumar</strong>, a Frontend Developer focused on responsive,
+            production-ready ERP, CRM and e-commerce experiences.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore my work <span>↗</span></a>
+            <a class="button button-ghost" href="mailto:ashishbindal2234@gmail.com">Contact me <span>→</span></a>
+          </div>
+          <div class="hero-meta">
+            <span class="availability-dot"></span>
+            <span>Based in Yamunanagar, Haryana, India</span>
+          </div>
+        </div>
+        <div class="hero-visual" aria-label="Abstract portfolio graphic">
+          <div class="visual-top"><span>PORTFOLIO / 2026</span><span class="visual-star">✳</span></div>
+          <div class="visual-art">
+            <div class="art-orb"></div>
+            <div class="art-ring"></div>
+            <div class="art-copy"><span>DESIGN.</span><span>DEVELOP.</span><span>DELIVER.</span></div>
+            <div class="art-index">01 — 03</div>
+          </div>
+          <div class="visual-bottom"><span>Thoughtful interfaces.</span><span>Reliable experiences.</span></div>
+          <div class="floating-chip"><span class="chip-dot"></span> Angular · TypeScript</div>
+        </div>
+      </div>
+      <div class="hero-scroll container"><span></span> SCROLL TO EXPLORE</div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container two-column">
+        <div>
+          <p class="eyebrow">01 / ABOUT ME</p>
+          <h2>Turning complex workflows into <span>simple experiences.</span></h2>
+        </div>
+        <div class="about-copy">
+          <p>Frontend Developer with 3+ years of experience building responsive, production-ready ERP, CRM and
+            e-commerce web applications using Angular, TypeScript and REST APIs.</p>
+          <p>I enjoy creating reusable components, dashboards and dynamic forms, integrating backend services, and
+            improving application performance. I also have working knowledge of Flutter and Dart for cross-platform
+            mobile development.</p>
+          <a class="text-link" href="#experience">Explore my experience <span>↗</span></a>
+        </div>
+      </div>
+      <div class="container stats-grid">
+        <div class="stat"><strong>3+</strong><span>Years of experience</span></div>
+        <div class="stat"><strong>5</strong><span>Featured project domains</span></div>
+        <div class="stat"><strong>2</strong><span>Core development platforms</span></div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">02 / TOOLKIT</p>
+            <h2>Skills & technologies</h2>
+          </div>
+          <p>A practical toolkit for building responsive web interfaces and cross-platform applications.</p>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card">
+            <div class="skill-icon">01</div>
+            <h3>Frontend</h3>
+            <p>Angular · TypeScript · JavaScript · HTML5 · CSS3 · Bootstrap · Angular Material</p>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon">02</div>
+            <h3>Mobile</h3>
+            <p>Flutter · Dart</p>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon">03</div>
+            <h3>Tools</h3>
+            <p>Git · GitHub · VS Code · Android Studio · Postman</p>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon">04</div>
+            <h3>Practices & APIs</h3>
+            <p>REST APIs · JSON · Responsive Design · Material UI · Agile</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section experience-section" id="experience">
+      <div class="container experience-grid">
+        <div class="experience-intro">
+          <p class="eyebrow">03 / EXPERIENCE</p>
+          <h2>Building for the <span>real world.</span></h2>
+          <p>Professional experience delivering business-focused web applications and user interfaces.</p>
+        </div>
+        <article class="experience-card">
+          <div class="experience-top"><span class="experience-label">PROFESSIONAL EXPERIENCE</span><span
+              class="experience-date">MAY 2023 — OCT 2026</span></div>
+          <h3>Frontend Developer</h3>
+          <p class="company">ComputeInfoSoft <span>·</span> Zirakpur</p>
+          <ul>
+            <li>Developed responsive ERP, CRM and e-commerce applications using Angular and TypeScript for pharmacy,
+              healthcare and retail clients.</li>
+            <li>Built reusable UI components, dashboards and dynamic forms to reduce duplicated code.</li>
+            <li>Integrated REST APIs through Angular services for inventory, customer, invoice and reporting modules.
+            </li>
+            <li>Optimized application performance and resolved UI and functional issues to improve stability.</li>
+            <li>Collaborated with backend developers, QA engineers and UI/UX designers in Agile projects.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">04 / SELECTED WORK</p>
+            <h2>Projects I've contributed to</h2>
+          </div>
+          <p>Business applications across pharmacy, healthcare, retail and e-commerce.</p>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card project-featured">
+            <a href="https://trinipharma.com/" target="_blank">
+            <div class="project-art art-pharma"><span>01 / PHARMACY</span>
+              <div class="mock-dashboard"><i></i><i></i><i></i><b>PHARMA<br>MANAGEMENT</b></div>
+            </div>
+            </a>
+            <div class="project-info">
+              <div>
+                <h3>Trini Pharma</h3>
+                <p>Inventory, supplier management, sales dashboard and reporting workflows.</p>
+              </div>
+              <a href="https://trinipharma.com/" target="_blank"><span class="project-arrow">↗</span></a>
+            </div>
+            <div class="tags"><span>Angular</span><span>ERP</span><span>Dashboard</span></div>
+          </article>
+          <article class="project-card">
+            <div class="project-art art-drish"><span>02 / ERP</span>
+              <div class="mock-window"><b>DrishtiERP</b>
+                <div class="mock-lines"></div>
+                <div class="mock-lines short"></div>
+                <div class="mock-pill"></div>
+              </div>
+            </div>
+            <div class="project-info">
+              <div>
+                <h3>DrishtiERP</h3>
+                <p>Prescription, inventory, point-of-sale and billing functionality.</p>
+              </div><span class="project-arrow">↗</span>
+            </div>
+            <div class="tags"><span>Angular</span><span>ERP</span><span>POS</span></div>
+          </article>
+          <article class="project-card">
+            <a href="https://triniretail.com/" target="_blank">
+              <div class="project-art art-retail"><span>03 / E-COMMERCE</span>
+                <div class="product-shapes"><i></i><i></i><i></i></div>
+              </div>
+            </a>
+            <div class="project-info">
+              <div>
+                <h3>Trini Retail Ecommerce</h3>
+                <p>Responsive product catalogue, cart and checkout user interface.</p>
+              </div>
+              <a href="https://triniretail.com/" target="_blank"><span class="project-arrow">↗</span></a>
+            </div>
+            <div class="tags"><span>Angular</span><span>E-commerce</span><span>Responsive UI</span></div>
+          </article>
+          <article class="project-card">
+            <a href="https://onecaribbeanpharma.com/" target="_blank">
+              <div class="project-art art-caribbean"><span>04 / HEALTHCARE</span>
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div><b>ONE<br>CARIBBEAN</b>
+              </div>
+            </a>
+            <div class="project-info">
+              <div>
+                <h3>One Caribbean Pharma</h3>
+                <p>Healthcare distributor portal supporting business workflows.</p>
+              </div>
+              <a href="https://onecaribbeanpharma.com/" target="_blank"><span class="project-arrow">↗</span></a>
+            </div>
+            <div class="tags"><span>Web application</span><span>Healthcare</span></div>
+          </article>
+          <article class="project-card">
+            <a href="https://www.gonaturaltt.com/" target="_blank">
+              <div class="project-art art-natural"><span>05 / E-COMMERCE</span>
+                <div class="natural-label">go<br>natural.</div>
+              </div>
+            </a>
+            <div class="project-info">
+              <div>
+                <h3>GoNatural Ecommerce</h3>
+                <p>Product catalogue, cart, checkout and responsive shopping experience.</p>
+              </div>
+              <a href="https://www.gonaturaltt.com/" target="_blank"><span class="project-arrow">↗</span></a>
+            </div>
+            <div class="tags"><span>E-commerce</span><span>Responsive UI</span></div>
+          </article>
+        </div>
+        <!-- <p class="project-note">Project summaries are based on the experience details provided. Add individual public
+          repository or live-demo links when you have permission and verified URLs.</p> -->
+      </div>
+    </section>
+
+    <section class="section education-section" id="education">
+      <div class="container education-grid">
+        <div>
+          <p class="eyebrow">05 / EDUCATION</p>
+          <h2>Learning is part of the process.</h2>
+        </div>
+        <div class="education-list">
+          <article><span>2018 — 2022</span>
+            <div>
+              <h3>B.Tech — Computer Science & Engineering</h3>
+              <p>Kurukshetra University</p>
+            </div>
+          </article>
+          <article><span>2021 — 2022</span>
+            <div>
+              <h3>Diploma in Computer Application</h3>
+              <p>Hartron Skill Centre</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-inner">
+        <p class="eyebrow">06 / GET IN TOUCH</p>
+        <h2>Have a project or opportunity in mind?</h2>
+        <p>I'm open to discussing frontend development, Angular and cross-platform application opportunities.</p>
+        <a class="button button-primary" href="mailto:ashishbindal2234@gmail.com">ashishbindal2234@gmail.com
+          <span>↗</span></a>
+        <div class="contact-details">
+          <a href="tel:+919671642556">+91 96716 42556</a>
+          <a href="https://github.com/Ashish-bit-art" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/ashish-kumar-970877237" target="_blank"
+            rel="noopener noreferrer">LinkedIn ↗</a>
+          <span>Yamunanagar, Haryana, India</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner"><a class="brand" href="#home">ashish<span>.</span></a>
+      <p>Designed & built by Ashish Kumar · <span id="year">2026</span></p><a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
