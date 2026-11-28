@@ -87,7 +87,6 @@ Web Development/Level 1/Task 3 - Temperature Converter/
 
 4. Open the `index.html` file in your browser.
 
-5. Alternatively, use the VS Code Live Server extension.
 
 ## 🧪 Test Cases
 
@@ -137,4 +136,4 @@ This project is created for educational and internship purposes.
 
 ⭐ If you find this project useful, consider giving the repository a star!
 
-**Built with ❤️ using HTML, CSS & JavaScript.**
+**Built with using HTML, CSS & JavaScript.**
